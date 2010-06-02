@@ -3,7 +3,6 @@ Bundle-ManifestVersion: 2
 Bundle-Name: MxSwing
 Bundle-SymbolicName: de.mxro.swing
 Bundle-Version: 0.0.2.SNAPSHOT
-Bundle-Activator: mxswing.Activator
 Import-Package: de.mxro.utils,
  de.mxro.utils.application,
  de.mxro.utils.background,
