@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: MxSwing
+Bundle-Name: mxSwing
 Bundle-SymbolicName: de.mxro.swing
 Bundle-Version: 0.0.2.SNAPSHOT
 Import-Package: de.mxro.utils,
