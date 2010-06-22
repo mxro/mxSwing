@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: mxSwing
-Bundle-SymbolicName: de.mxro.swing
+Bundle-Name: Unnamed - de.mxro.swing:mxSwing:bundle:0.0.2-SNAPSHOT
+Bundle-SymbolicName: mxSwing;singleton:=true
 Bundle-Version: 0.0.2.SNAPSHOT
 Import-Package: de.mxro.utils,
  de.mxro.utils.application,
@@ -19,3 +19,5 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: de.mxro.swing,
  de.mxro.swing.actions,
  de.mxro.swing.dialogwizard
+Bundle-ClassPath: .,
+ mxUtilities-0.0.1.jar
