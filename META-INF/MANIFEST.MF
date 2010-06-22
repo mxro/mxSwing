@@ -19,5 +19,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: de.mxro.swing,
  de.mxro.swing.actions,
  de.mxro.swing.dialogwizard
-Bundle-ClassPath: .,
- mxUtilities-0.0.1.jar
+Bundle-ClassPath: .
