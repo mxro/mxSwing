@@ -78,7 +78,7 @@
 							de.mxro.utils.history,
 							de.mxro.utils.log,
 							de.mxro.utils.progress,
-							!*</Import-Package>
+							*</Import-Package>
 						<Export-Package>de.mxro.swing,
 							de.mxro.swing.actions,
 							de.mxro.swing.dialogwizard</Export-Package>
@@ -138,6 +138,28 @@
 					<source>1.6</source>
 					<target>1.6</target>
 				</configuration>
+			</plugin>
+
+<!--
+				Keep the MANIFEST.MF used by eclipse in sync with the MANIFEST.MF
+				created by the maven bundle plugin
+			-->
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<tasks>
+								<delete file="${basedir}/META-INF/MANIFEST.MF" />
+								<copy file="target/classes/META-INF/MANIFEST.MF" tofile="${basedir}/META-INF/MANIFEST.MF" />
+							</tasks>
+						</configuration>
+					</execution>
+				</executions>
 			</plugin>
 
 			<!--
