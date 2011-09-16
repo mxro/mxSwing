@@ -5,10 +5,10 @@ Export-Package: de.mxro.swing;uses:="javax.swing,de.mxro.utils.log,jav
  e.mxro.utils"
 Built-By: mroh004
 Build-Jdk: 1.6.0_27
-Bundle-Version: 0.0.2.SNAPSHOT
+Bundle-Version: 0.0.2
 Tool: Bnd-0.0.357
 Bundle-Name: mxSwing
-Bnd-LastModified: 1316055118877
+Bnd-LastModified: 1316210512530
 Created-By: Apache Maven Bundle Plugin
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: mxSwing
