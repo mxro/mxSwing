@@ -3,12 +3,12 @@ Export-Package: de.mxro.swing;uses:="javax.swing,de.mxro.utils.log,jav
  ax.imageio,javax.swing.border",de.mxro.swing.actions;uses:="javax.swi
  ng,de.mxro.utils.log",de.mxro.swing.dialogwizard;uses:="javax.swing,d
  e.mxro.utils"
-Built-By: mroh004
-Build-Jdk: 1.6.0_27
+Built-By: Max
+Build-Jdk: 1.6.0_24
 Bundle-Version: 0.0.3.SNAPSHOT
 Tool: Bnd-0.0.357
 Bundle-Name: mxSwing
-Bnd-LastModified: 1316210632441
+Bnd-LastModified: 1337490351424
 Created-By: Apache Maven Bundle Plugin
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: mxSwing
