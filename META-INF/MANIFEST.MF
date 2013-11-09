@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1383969008934
+Bnd-LastModified: 1383969524313
 Build-Jdk: 1.7.0_25
 Built-By: adminuser
 Bundle-ManifestVersion: 2
@@ -12,10 +12,10 @@ Export-Package: de.mxro.swing;version="0.0.3.SNAPSHOT";uses:="javax.swin
  e.mxro.swing.dialogwizard;version="0.0.3.SNAPSHOT";uses:="javax.swing"
 Import-Package: de.mxro.utils;version="[0.0,1)",de.mxro.utils.log;versio
  n="[0.0,1)",javax.imageio,javax.swing,javax.swing.border,de.mxro.utils.
- domain;version="[0.0,1)",de.mxro.utils.progress;version="[0.0,1)",de.mx
- ro.utils.history;version="[0.0,1)",de.mxro.utils.domain.authentication;
- version="[0.0,1)",de.mxro.utils.application;version="[0.0,1)",de.mxro.u
- tils.drm;version="[0.0,1)",de.mxro.utils.gwt;version="[0.0,1)",de.mxro.
- utils.distributedtree;version="[0.0,1)",de.mxro.utils.background;versio
+ domain.authentication;version="[0.0,1)",de.mxro.utils.progress;version=
+ "[0.0,1)",de.mxro.utils.distributedtree;version="[0.0,1)",de.mxro.utils
+ .application;version="[0.0,1)",de.mxro.utils.drm;version="[0.0,1)",de.m
+ xro.utils.domain;version="[0.0,1)",de.mxro.utils.history;version="[0.0,
+ 1)",de.mxro.utils.gwt;version="[0.0,1)",de.mxro.utils.background;versio
  n="[0.0,1)"
 Tool: Bnd-2.1.0.20130426-122213
